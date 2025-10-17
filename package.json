@@ -1,0 +1,8 @@
+{
+  "name": "cart-path-api",
+  "version": "1.0.0",
+  "main": "api/extract-cart-path.js",
+  "scripts": {
+    "start": "vercel dev"
+  }
+}
