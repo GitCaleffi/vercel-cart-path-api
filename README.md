@@ -22,4 +22,23 @@ POST `/api/extract-cart-path`
 
 ---
 
+## 2. Regex personalizzata
+
+**POST `/api/regex-extract`**
+```json
+{
+  "string": "peso netto: 35kg",
+  "regex": "\\d+kg"
+}
+```
+
+**Risposta:**
+```json
+{
+  "match": "35kg"
+}
+```
+
+
+
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/TUO-USERNAME/vercel-cart-path-api)
