@@ -1,0 +1,19 @@
+{
+  "name": "vercel-cart-path-api",
+  "version": "1.0.0",
+  "description": "Vercel serverless API to extract values from cart paths using regex",
+  "main": "api/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "dev": "vercel dev"
+  },
+  "keywords": [
+    "vercel",
+    "api",
+    "regex",
+    "cart"
+  ],
+  "author": "GitCaleffi",
+  "license": "MIT"
+}
